@@ -128,10 +128,10 @@ h1{
 .head .big{
 	width: 150px;
 	height: 150px;
-	border: 2px solid #888;
+	border: 1px solid #ccc;
 	position: absolute;
 	left: 35%;
-	top: 95%;
+	top: 98%;
 	background-color: #fff;
 	/*border-top: 1px solid #888;*/
 	display: none;
