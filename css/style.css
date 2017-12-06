@@ -1,0 +1,183 @@
+*{ margin:0; padding:0;}
+body{ font-size:14px; 
+	  font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	  font-style:normal;}
+a{ text-decoration:none}
+a,a:hover{  transition:background 0.5s linear;-webkit-transition:background 0.5s linear;-moz-transition:background 0.5s linear;-o-transition:background 0.5s linear;}
+em, i{font-style: normal;}
+ul, ol, li{list-style: none;}
+img{ border:none;vertical-align:middle;}
+input,select,textarea{outline:none;border:none;background:none;}
+textarea{resize:none;}
+p{line-height:22px;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{ clear:both; height:0px; width:100%; overflow:hidden;}
+.position{position:relative;}
+.orange{
+	color: #E8A100;
+}
+.white{
+	color: #fff;
+}
+.center{
+	text-align: center;
+}
+.left{
+	text-align: left;
+}
+.login{
+	width: 25%;
+	background-color: #f0f0f0;
+	margin: 10% auto 0;
+	border-radius: 13px;
+	padding: 36px 0;
+	border: 1px solid #888;
+}
+h1{
+	font-weight: normal;
+	font-size: 24px;
+}
+.login p{
+	color: #333;
+	font-size: 14px;
+	width: 80%;
+	margin: 15px auto 5px;
+}
+.login .put{
+	width: 80%;
+	height: 28px;
+	line-height: 28px;
+	display: block;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 8px;
+}
+.login .submit{
+	display: block;
+	width: 30%;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: #E8A100;
+	margin: 40px auto 0;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 14px;
+}
+/*/////表单///////*/
+.head{
+	width: 100%;
+	background-color: #E8A100;
+	border: 1px solid #888;
+}
+.head .container{
+	width: 68%;
+	margin-left: 20%;
+}
+.head h1{
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+.head .link{
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.head .link p,.export{
+	color: #fff;
+	font-size: 18px;
+}
+.head .link .find{
+	width: 30%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 0 15px;
+}
+.head .link .func{
+	width: 10%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.head .link .func div{
+	width: 25%;
+	height: 22px;
+	margin: 4px 4%;
+}
+.head .link .func div:hover{
+	cursor: pointer;
+}
+.head .link .func .copy{
+	background: url(../img/copy.png) no-repeat;
+	background-size: cover;
+}
+.head .link .func .code{
+	background: url(../img/code.png) no-repeat;
+	background-size: cover;
+}
+.head .link .func .share{
+	background: url(../img/share.png) no-repeat;
+	background-size: cover;
+}
+.table-wrap{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.table-wrap table{
+	border-collapse:collapse;
+	margin-left: 20%;
+	margin-top: 50px;
+}
+.table-wrap table th,td{
+	height: 45px;
+	border: 1px solid #888;
+}
+.table-wrap table th{
+	background-color: #D5D5D5;
+}
+.table-wrap table .a{
+	width: 5%;
+}
+.table-wrap table .b{
+	width: 7%;
+}
+.table-wrap table .c,.d,.e,.f,.g{
+	width: 10%;
+}
+.table-wrap table .h{
+	width: 16%;
+	border: 0;
+	background-color: #fff;
+	overflow: hidden;
+}
+.table-wrap table .h div{
+	display: inline-block;
+	padding: 5px 0;
+	font-size: 16px;
+	border: 1px solid #888;
+	border-radius: 5px;
+	width: 35%;
+	text-align: center;
+}
+.table-wrap table .h .del{
+	background-color: #FFB91A;
+	color: #fff;
+	float: right;
+}
+.table-wrap table .h .edit{
+	background-color: #FFE781;
+	color: #888;
+	float: left;
+	margin-left: 15%;
+}
+.table-wrap table .h div:hover{
+	cursor: pointer;
+}
+.table-wrap table .a input{
+	display: block;
+	margin: 0 auto;
+}
