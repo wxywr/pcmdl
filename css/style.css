@@ -122,18 +122,18 @@ h1{
 }
 .head .link .func .copy{
 	background: url(../img/copy.png) no-repeat;
-	background-size: 98% 100%;
-	background-position: cover;
+	background-size: 100%;
+	background-position: center;
 }
 .head .link .func .code{
 	background: url(../img/code.png) no-repeat;
-	background-size: 98% 100%;
-	background-position: cover;
+	background-size: 100%;
+	background-position: center;
 }
 .head .link .func .share{
 	background: url(../img/share.png) no-repeat;
-	background-size: 98% 100%;
-	background-position: cover;
+	background-size: 100%;
+	background-position: center;
 }
 .table-wrap{
 	width: 100%;
