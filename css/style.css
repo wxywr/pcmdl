@@ -68,6 +68,9 @@ h1{
 	color: #fff;
 	font-size: 14px;
 }
+.login .submit:hover{
+	cursor: pointer;
+}
 /*/////表单///////*/
 .head{
 	width: 100%;
