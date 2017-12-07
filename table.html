@@ -33,9 +33,9 @@
 				<th class="a"></th>
 				<th class="b">序号</th>
 				<th class="c">姓名</th>
-				<th class="d">电话</th>
+				<th class="d">联系电话</th>
 				<th class="e">邮箱</th>
-				<th class="f">地址</th>
+				<th class="f">联系地址</th>
 				<th class="g">公司名称</th>
 				<th class="i">问题一</th>
 				<th class="j">问题二</th>
@@ -44,17 +44,17 @@
 			</tr>
 			<tr>
 				<td class="a">
-					<input type="checkbox">
+					<input type="checkbox" class="check">
 				</td>
-				<td class="b"></td>
-				<td class="c"></td>
-				<td class="d"></td>
-				<td class="e"></td>
-				<td class="f"></td>
-				<td class="g"></td>
-				<td class="i"></td>
-				<td class="j"></td>
-				<td class="k"></td>
+				<td class="b">01</td>
+				<td class="c">张三</td>
+				<td class="d">13589689740</td>
+				<td class="e">1246367@qq.com</td>
+				<td class="f">上海市浦东新区</td>
+				<td class="g">上海摩客文化传播有限公司</td>
+				<td class="i">A</td>
+				<td class="j">B</td>
+				<td class="k">C</td>
 				<td class="h">				
 					<div class="edit">编辑</div>
 					<div class="del">删除</div>
@@ -62,7 +62,7 @@
 			</tr>
 			<tr>
 				<td class="a">
-					<input type="checkbox">
+					<input type="checkbox" class="check">
 				</td>
 				<td class="b"></td>
 				<td class="c"></td>
@@ -80,7 +80,7 @@
 			</tr>
 			<tr>
 				<td class="a">
-					<input type="checkbox">
+					<input type="checkbox" class="check">
 				</td>
 				<td class="b"></td>
 				<td class="c"></td>
@@ -98,7 +98,7 @@
 			</tr>
 			<tr>
 				<td class="a">
-					<input type="checkbox">
+					<input type="checkbox" class="check">
 				</td>
 				<td class="b"></td>
 				<td class="c"></td>
@@ -116,7 +116,7 @@
 			</tr>
 			<tr>
 				<td class="a">
-					<input type="checkbox">
+					<input type="checkbox" class="check">
 				</td>
 				<td class="b"></td>
 				<td class="c"></td>
@@ -134,7 +134,7 @@
 			</tr>
 			<tr>
 				<td class="a">
-					<input type="checkbox">
+					<input type="checkbox" class="check">
 				</td>
 				<td class="b"></td>
 				<td class="c"></td>
@@ -152,7 +152,7 @@
 			</tr>
 			<tr>
 				<td class="a">
-					<input type="checkbox">
+					<input type="checkbox" class="check">
 				</td>
 				<td class="b"></td>
 				<td class="c"></td>
@@ -170,7 +170,7 @@
 			</tr>
 			<tr>
 				<td class="a">
-					<input type="checkbox">
+					<input type="checkbox" class="check">
 				</td>
 				<td class="b"></td>
 				<td class="c"></td>
@@ -187,6 +187,41 @@
 				</td>
 			</tr>
 		</table>
+	</div>
+	<div class="layout">
+		<ul class="data">
+			<li class="revise">修改数据</li>
+			<li><p class="margin">姓名</p> <input type="text" class="info"></li>
+			<li><p class="margin">联系电话</p> <input type="tel" class="info"></li>
+			<li><p class="margin">邮箱</p> <input type="email" class="info"></li>
+			<li><p class="margin">联系地址</p> <input type="text" class="info"></li>
+			<li><p class="margin">公司名称</p> <input type="text" class="info"></li>
+			<li>
+				<h3>问题一</h3>
+				<p>你最喜欢新产品的哪些特点？</p> 
+				<div class="select"><input type="radio" id="zl-1" name="like">&nbsp;&nbsp;<label for="zl-1">质量好</label></div>
+				<div class="select"><input type="radio" id="jg-1" name="like">&nbsp;&nbsp;<label for="jg-1">价格便宜</label></div>
+				<div class="select"><input type="radio" id="sd-1" name="like">&nbsp;&nbsp;<label for="sd-1">速度快</label></div>
+			</li>
+			<li>
+				<h3>问题二</h3>
+				<p>你最喜欢新产品的哪些特点？</p> 
+				<div class="select"><input type="radio" id="zl-2" name="like">&nbsp;&nbsp;<label for="zl-2">质量好</label></div>
+				<div class="select"><input type="radio" id="jg-2" name="like">&nbsp;&nbsp;<label for="jg-2">价格便宜</label></div>
+				<div class="select"><input type="radio" id="sd-2" name="like">&nbsp;&nbsp;<label for="sd-2">速度快</label></div>
+			</li>
+			<li>
+				<h3>问题三</h3>
+				<p>你最喜欢新产品的哪些特点？</p> 
+				<div class="select"><input type="radio" id="zl-3" name="like">&nbsp;&nbsp;<label for="zl-3">质量好</label></div>
+				<div class="select"><input type="radio" id="jg-3" name="like">&nbsp;&nbsp;<label for="jg-3">价格便宜</label></div>
+				<div class="select"><input type="radio" id="sd-3" name="like">&nbsp;&nbsp;<label for="sd-3">速度快</label></div>
+			</li>
+			<li style="overflow: hidden;">
+				<input type="button" value="取消" class="cancel fr">
+				<input type="button" value="提交" class="refer fr">
+			</li>
+		</ul>
 	</div>
 </body>
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
